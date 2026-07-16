@@ -38,7 +38,7 @@ pie = float(input("Enter the value of pie: "))
 area = pie * radius * radius
 print(f"The area of the circle with radius {radius} is: {area}cm^2")
 """
-
+#Salary Growth Calculator
 current_salary = float(input("Enter your current salary: "))
 target_salary = float(input("Enter your target salary: "))
 salary_increase = target_salary - current_salary
