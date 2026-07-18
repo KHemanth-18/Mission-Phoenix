@@ -44,10 +44,17 @@ target_salary = float(input("Enter your target salary: "))
 salary_increase = target_salary - current_salary
 percentage_increase = (salary_increase / current_salary) * 100
 
-print(f"Your current salary is: {current_salary}")
-print(f"Your target salary is: {target_salary}")
-print(f"You need a salary increase of: {salary_increase}")
-print(f"This is a percentage increase of: {round(percentage_increase, 2)}%")
+print(f"Your current salary is: {current_salary:.2f}")
+print(f"Your target salary is: {target_salary:.2f}")
+print(f"You need a salary increase of: {salary_increase:.2f}")
+print(f"This is a percentage increase of: {percentage_increase:.2f}%)")
+
+"""
+if target_salary <= current_salary:
+    print("Target salary must be greater than current salary.")
+else:
+    # calculations
+"""
 
 if salary_increase < 0:
     print("Your target salary is lower than your current salary.")
