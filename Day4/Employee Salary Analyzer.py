@@ -2,9 +2,9 @@
 """
 Mission Phoenix
 
-Day 3
+Day 4
 
-Topic : Input
+Topic : Assignment
 
 Author : Phoenix
 """
@@ -34,12 +34,12 @@ while True:
     print("          Employee Evaluation report          ")
     print("\n==========================================\n")
     print(f"Employee Name      : {name}")
-    print(f"Experience         : {experience}")
+    print(f"Experience         : {experience} years")
     print(f"Performance Rating : {performance_rating}")
-    print(f"Current Salary     : {current_salary}")
+    print(f"Current Salary     : {current_salary} LPA")
     print(f"Salary Hike        : {salary_hike}")
-    print(f"New Salary         : {new_salary}")
-    print(f"Decision           : {'Salary Hike Approved' if new_salary > current_salary else 'No Salary Hike'}")
+    print(f"New Salary         : {new_salary} LPA")
+    print(f"Decision           : {'Promotion Eligible\nSalary Hike Approved' if new_salary > current_salary else 'No Salary Hike'}")
     print("\n==========================================\n")
     while True:
         evaluate = input("\n Evaluate another employee? (yes/no): ").lower()
